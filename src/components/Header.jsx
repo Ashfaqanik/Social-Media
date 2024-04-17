@@ -1,4 +1,4 @@
-function Header() {
+const Header = () => {
   return (
     <header className="p-3 text-bg-dark">
       <div className="container">
@@ -70,6 +70,6 @@ function Header() {
       </div>
     </header>
   );
-}
+};
 
 export default Header;
